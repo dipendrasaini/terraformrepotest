@@ -11,7 +11,7 @@ terraform {
 
 
 
-resource "random_id" "server" {
+resource "random_id" "servers" {
 
   byte_length = 8
 }
